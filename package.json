@@ -1,5 +1,5 @@
 {
-  "name": "@rsbuild/plugin-markdown-loader",
+  "name": "rsbuild-plugin-markdown-loader",
   "version": "1.0.1",
   "repository": "https://github.com/aliezzahn/rsbuild-plugin-markdown-loader",
   "license": "MIT",
@@ -48,8 +48,7 @@
   "packageManager": "pnpm@10.10.0",
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/",
-    "provenance": true
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "rs-markdown-parser": "^1.0.0"
