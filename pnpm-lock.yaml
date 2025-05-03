@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      rs-markdown-parser:
+        specifier: ^1.0.0
+        version: 1.0.0
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.4
@@ -310,6 +314,9 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
+  rs-markdown-parser@1.0.0:
+    resolution: {integrity: sha512-eT0eZbFC3E19iOc4nucDvDs1o1HYQpwMD+TTl/uIKiqaFDPeTlL1nCNeql8QFbEVAcPLcsDrsH1vErKXWnuEIg==}
+
   rsbuild-plugin-dts@0.6.8:
     resolution: {integrity: sha512-EkUPAmIIUmHj4pkmiuL9vPQpRQShkg4oNY1PJ/4u55i1pJfilOqT2s5Rr91MwUzd6/ThaefHGMPMl7agq8K0dw==}
     engines: {node: '>=16.7.0'}
@@ -563,6 +570,8 @@ snapshots:
       playwright-core: 1.52.0
     optionalDependencies:
       fsevents: 2.3.2
+
+  rs-markdown-parser@1.0.0: {}
 
   rsbuild-plugin-dts@0.6.8(@rsbuild/core@1.3.14)(typescript@5.8.3):
     dependencies:

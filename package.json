@@ -1,7 +1,7 @@
 {
   "name": "rsbuild-plugin-example",
-  "version": "0.0.0",
-  "repository": "https://github.com/rspack-contrib/rsbuild-plugin-template",
+  "version": "1.0.0",
+  "repository": "https://github.com/aliezzahn/rsbuild-plugin-markdown-loader",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -49,5 +49,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "rs-markdown-parser": "^1.0.0"
   }
 }
