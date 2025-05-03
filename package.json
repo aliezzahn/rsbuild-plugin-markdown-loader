@@ -1,10 +1,7 @@
 {
   "name": "@rsbuild/plugin-markdown-loader",
   "version": "1.0.1",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aliezzahn/rsbuild-plugin-markdown-loader.git"
-  },
+  "repository": "https://github.com/aliezzahn/rsbuild-plugin-markdown-loader",
   "license": "MIT",
   "type": "module",
   "exports": {
