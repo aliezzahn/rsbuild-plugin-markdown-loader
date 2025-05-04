@@ -1,3 +1,5 @@
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/web-infra-dev/awesome-rspack)
+
 # rsbuild-plugin-markdown-loader
 
 A custom Markdown loader plugin for [Rsbuild](https://rsbuild.dev) that supports transforming `.md` files using a high-performance [Neon](https://neon-bindings.com/) Rust parser. Supports GitHub-flavored Markdown (GFM).
