@@ -1,4 +1,4 @@
-// Loader wrapper for the Neon module
+// Loader wrapper for the rs-markdown-parser module [https://www.npmjs.com/package/rs-markdown-parser]
 const { processMarkdown } = require('rs-markdown-parser');
 
 module.exports = function (content, map, meta) {
