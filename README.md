@@ -25,11 +25,17 @@ A custom Markdown loader plugin for [Rsbuild](https://rsbuild.dev) that supports
 ```bash
 npm add rsbuild-plugin-markdown-loader -D
 ```
+```bash
+bun add -d rsbuild-plugin-markdown-loader 
+```
 
 > **Note:** You must also install the `rs-markdown-parser` native module, which is a Neon-powered Markdown parser.
 
 ```bash
 npm add rs-markdown-parser
+```
+```bash
+bun  add rs-markdown-parser
 ```
 
 ---
